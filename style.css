@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+#players {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+#players > div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 55%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+img:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
