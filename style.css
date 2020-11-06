@@ -5,11 +5,12 @@ body {
 #players {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-evenly;
     width: 100%;
 }
 #players > div {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 img {
